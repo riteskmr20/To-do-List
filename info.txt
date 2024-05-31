@@ -1,0 +1,62 @@
+>>>TO-DO PROJECT>>>>
+
+
+//HTML 
+STEP:1-->Make a Container inside the Container A Input container.
+
+STEP:2-->Inside the input container a heading and the two input type one is button and the second one is text type.
+
+STEP:3-->Make a unorder list with a class and a id.
+
+
+
+
+
+//JAVASCRIPT
+STEP:4-->Button type have some id and now apply the dom to getElementById to select that now it is same as the all id.
+
+STEP:5-->Now make a addTodo arrow function which have the the inputText which takes the value from the inputBox.
+
+STEP:6-->if nothing is written then it shown a alert to right something.
+
+STEP:7-->Now the enter text is to be added in the to do for that i have to make a list and the para by the help of dom.(By createElement) and add the para content in the list in the list(by appendChild).
+
+STEP:8-->Now i have to create the button of the edit and the remove button by the help of dom assign the value to "Edit" and the "Remove" and add it to the list by (appendChild()) method.
+
+STEP:9-->Now give the class name to the remove and the edit button(by classList.add("")) multiple class is given to the element by this method.
+
+STEP:10-->Now we have to add the content of the list into the unorder list which have id todoList.
+
+STEP:11-->After adding make the inputBox value empty.
+
+STEP:12-->Now make a function updateTodo which is for the the edit and the remove.
+
+STEP:13-->passing a parameter to the arrow function in updateTodo for  identify the content by clicking on the unorder list.
+
+STEP:14-->For that we set that inside the e.target of the innerHTML if "Remove" is found then delete the list  completely.
+
+STEP:15-->for remove the removeChild() is used and that will be applicable on the parentElement of the e.target of that.
+
+STEP:16-->If the "Edit" is encounter then the list context should display in the inputBox.
+
+STEP:17-->if "Edit" is encounter then the previousElementSibling value will reflect on the input box it means that previousElementSibling is the para and the para content will display there.
+
+STEP:18-->Now focus on the inputBox().
+
+STEP:19-->Now change the button of add to edit.
+
+STEP:20--> Now make a global variable editTodo that is null now which can be assecible in both the function addTodo and the updatetodo also.
+
+STEP:21-->make the (editTodo = e) in the updateTodo.
+
+STEP:22-->Now if the addBtn.value is "Edit" then the editTodo.target.previousElementSibling.innerHTML(means p tag) is set to be inputText.
+
+STEP:23-->Now change the addBtn value to add and after that inputBox value will be empty.
+
+STEP:24-->Now it is added in the new list for make change in the previous list we apply the else condition in other code of addTodo.
+
+STEP:25-->Now local localStorage will
+The localStorage object stores data with no expiration date.
+The data is not deleted when the browser is closed, and are available for future sessions.
+
+
